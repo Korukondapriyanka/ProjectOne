@@ -1,0 +1,19 @@
+num 1=int(input())
+num 2=int(input())
+
+operator = input('')
+
+if operator == '+':
+   print(f'addition of numbers:{num 1 + num 2}')
+   
+elif operator == '-':
+   print(f'subtraction of numbers:{num 1 - num 2}')
+   
+elif operator == '*':
+   print(f'multiplication of numbers:{num 1 * num 2}')
+   
+elif operator == '/':
+   print(f'division of two numbers:{num 1 / num 2}')
+   
+else :
+    print('invalid operator')
